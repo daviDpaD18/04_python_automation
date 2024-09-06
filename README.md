@@ -1,8 +1,20 @@
-# DevSchool DevOps edition
+# DevSchool DevOps Edition
 
-Added the solution for the task provided by our tutor.
+This repository contains solutions for the DevOps task provided by our tutor.
 
-05-logs.py == the implementation of the tasks
-05-automation.py == Python scripts that execute in sequence to generate and process logs
-  log.txt - the logs
-  users_logs.txt  - the information requested by the task
+## Scripts
+
+- **`05-logs.py`**: Implements the tasks to generate and process logs.
+- **`05-automation.py`**: Automates the execution of `05-logs.py` and processes the logs sequentially.
+
+## Files
+
+- **`log.txt`**: The generated log file.
+- **`users_logs.txt`**: The processed information as requested by the task.
+
+## Usage
+
+1. Ensure that both `05-logs.py` and `05-automation.py` are in the same directory.
+2. Execute the `05-automation.py` script to run both tasks in sequence:
+   ```bash
+   python3 05-automation.py
