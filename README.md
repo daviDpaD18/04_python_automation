@@ -4,8 +4,9 @@ This repository contains solutions for the DevOps task provided by our tutor.
 
 ## Scripts
 
-- **`05-logs.py`**: Implements the tasks to generate and process logs.
-- **`05-automation.py`**: Automates the execution of `05-logs.py` and processes the logs sequentially.
+- **`05-logs.py`**: Implements the tasks to  process logs.
+- **`05-generate.py'`**: Generates the logs.
+- **`05-automation.py`**: Automates the execution of `05-logs.py` and `05-generate.py`.
 
 ## Files
 
